@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab Sit 1</string>
+    <string name="clickMe">CLICK ME!</string>
+    <string name="doNotClick">Do not click me!</string>
+</resources>
