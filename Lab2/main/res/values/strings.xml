@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LEFT RIGHT</string>
+
+    <string name="main_title_text">WELCOME! USE BUTTONS BELOW TO ACCESS DIFFERENT ACTIVITIES</string>
+    <string name="login_button_text">LOGIN</string>
+    <string name="signup_button_text">SIGN UP</string>
+    <string name="info_button_text">INFO</string>
+    <string name="left_right_button_text">LFT RGT</string>
+
+    <string name="hint_username">Enter username</string>
+    <string name="hint_password">Enter password</string>
+
+    <string name="signup_name">Name</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_male">Male</string>
+    <string name="signup_female">Female</string>
+    <string name="signup_hint_DOB">Enter D.O.B (DD/MM/YY)</string>
+    <string name="signup_gender">Gender</string>
+    <dimen name="signup_component_distance">22dp</dimen>
+
+    <string name="character_name">NAME</string>
+    <string name="character_age">AGE</string>
+    <string name="character_job">JOB</string>
+
+
+    <dimen name="my_padding">16dp</dimen>
+    <dimen name="my_pic_height">350dp</dimen>
+    <dimen name="my_text_size">18sp</dimen>
+    <dimen name="margin_on_text_views">12dp</dimen>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/my_padding"
+    android:paddingTop="@dimen/my_padding"
+    android:paddingRight="@dimen/my_padding"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_name"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/sign_up_name_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/name_text_view"
+        android:layout_below="@id/sign_up_name_edit_text"
+        android:ems="10"
+        android:paddingTop="@dimen/signup_component_distance"
+
+        />
+
+    <TextView
+        android:id="@+id/email_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up_name_edit_text"
+        android:text="@string/signup_email"
+        android:paddingTop="@dimen/signup_component_distance"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/email_text_view"
+        android:layout_below="@id/email_text_view"
+        android:ems="10"
+
+        />
+
+    <EditText
+        android:id="@+id/sign_up_password_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/email_text_view"
+        android:layout_below="@id/email_edit_text"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:paddingTop="@dimen/signup_component_distance"
+
+        />
+
+    <EditText
+        android:id="@+id/dob_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/email_text_view"
+        android:layout_below="@id/sign_up_password_edit_text"
+        android:ems="10"
+        android:hint="@string/signup_hint_DOB"
+        android:inputType="date"
+        android:paddingTop="@dimen/signup_component_distance"
+
+        />
+
+    <TextView
+        android:id="@+id/gender_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dob_edit_text"
+        android:text="@string/signup_gender"
+        android:paddingTop="@dimen/signup_component_distance"
+        android:textSize="20sp"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_button_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dob_edit_text"
+        android:layout_alignEnd="@id/dob_edit_text"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/signup_component_distance"
+
+        >
+
+        <RadioButton
+            android:id="@+id/male_signup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_male"
+
+            />
+        <RadioButton
+            android:id="@+id/female_signup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_female"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="@string/signup_button_text"
+        android:gravity="center"
+        android:onClick="signUpButtonClicked"
+
+        />
+
+
+
+
+</RelativeLayout>

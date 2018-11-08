@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/my_padding"
+    android:paddingEnd="@dimen/my_padding"
+    android:paddingTop="@dimen/my_padding"
+    android:paddingBottom="@dimen/my_padding"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/pictureImageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_pic_height"
+        android:src="@drawable/pic6"
+        />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/my_text_size"
+        android:layout_marginTop="@dimen/margin_on_text_views"
+        android:text="@string/character_name"
+
+        />
+
+    <TextView
+        android:id="@+id/ageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/my_text_size"
+        android:layout_marginTop="@dimen/margin_on_text_views"
+        android:text="@string/character_age"
+
+        />
+
+    <TextView
+        android:id="@+id/jobTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/my_text_size"
+        android:layout_marginTop="@dimen/margin_on_text_views"
+        android:text="@string/character_job"
+
+
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/previousButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:onClick="previousButtonClicked"
+            android:src="@drawable/buttonprevious"
+            android:background="@android:color/transparent"
+
+            />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/previousButton"
+            android:onClick="nextButtonClicked"
+            android:src="@drawable/buttonnext"
+            android:background="@android:color/transparent"
+
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
