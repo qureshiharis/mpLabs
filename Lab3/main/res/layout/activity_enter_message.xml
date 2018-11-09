@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterMessageActivity">
+
+    <EditText
+        android:id="@+id/message_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="9"
+        android:textSize="32sp"
+        android:fontFamily="cursive"
+        />
+
+    <Button
+        android:id="@+id/send_message_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_edit_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/send_message_button"
+        android:onClick="sendMessageButtonClicked"
+        />
+
+</RelativeLayout>

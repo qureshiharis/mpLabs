@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImplicitActivity"
+    android:columnCount="4"
+    android:paddingStart="@dimen/my_padding"
+    android:paddingEnd="@dimen/my_padding"
+    android:paddingTop="@dimen/my_padding"
+    >
+
+    <EditText
+        android:id="@+id/main_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_text"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+
+        />
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="callButtonClicked"
+        android:text="@string/call_button_text"
+
+        android:layout_row="1"
+        android:layout_column="3"
+
+        />
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cameraButtonClicked"
+        android:text="@string/camera_button_text"
+
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        />
+
+    <Button
+        android:id="@+id/contact_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="contactButtonClicked"
+        android:text="@string/contact_button_text"
+
+        android:layout_row="1"
+        android:layout_column="2"
+
+        />
+
+    <Button
+        android:id="@+id/browser_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="browserButtonClicked"
+        android:text="@string/browser_button_text"
+
+        android:layout_row="2"
+        android:layout_column="3"
+
+        />
+
+    <Button
+        android:id="@+id/call_log_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="callLogButtonClicked"
+        android:text="@string/call_log_button_text"
+
+        android:layout_row="1"
+        android:layout_column="1"
+
+
+        />
+
+    <Button
+        android:id="@+id/gallery_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="galleryButtonClicked"
+        android:text="@string/gallery_button_text"
+
+        android:layout_row="2"
+        android:layout_column="0"
+
+        />
+
+    <Button
+        android:id="@+id/dial_pad_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dialPadButtonClicked"
+        android:text="@string/dial_pad_button_text"
+
+        android:layout_row="1"
+        android:layout_column="0"
+        />
+
+</GridLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Implicit Everywhere</string>
+
+    <string name="task_one_text">Task 1 is implemented in Lab2 application</string>
+    <string name="task_two_button_text">TASK 2</string>
+    <string name="task_three_button_text">TASK 3</string>
+    <string name="empty_string">     </string>
+
+    <string name="edit_text_text">Enter phone number/website/location</string>
+
+    <string name="call_button_text">CALL</string>
+    <string name="camera_button_text">CAMERA</string>
+    <string name="contact_button_text">CONTACT</string>
+    <string name="browser_button_text">BROWSER</string>
+    <string name="call_log_button_text">CALL LOG</string>
+    <string name="gallery_button_text">GALLERY</string>
+    <string name="dial_pad_button_text">DIAL PAD</string>
+
+    <string name="get_message_button">GET MESSAGE</string>
+    <string name="send_message_button">SEND MESSAGE</string>
+
+    <dimen name="my_padding">8dp</dimen>
+
+
+</resources>

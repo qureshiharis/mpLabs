@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/task_two_button"
+        android:text="@string/task_one_text"
+        />
+    <TextView
+        android:id="@+id/dummy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/task_two_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@id/dummy_text_view"
+        android:text="@string/task_two_button_text"
+        android:onClick="onTaskTwoClicked"
+
+        />
+
+    <Button
+        android:id="@+id/task_three_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/dummy_text_view"
+        android:text="@string/task_three_button_text"
+        android:onClick="onTaskThreeClicked"
+
+        />
+
+
+
+</RelativeLayout>
