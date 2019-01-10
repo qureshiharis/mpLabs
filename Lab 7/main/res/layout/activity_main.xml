@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#272727"
+    android:padding="16dp"
+    >
+
+    <Button
+        android:id="@+id/turn_on_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="turn on"
+        android:fontFamily="serif-monospace"
+        android:textAllCaps="false"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ad5a32"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+
+        />
+
+    <Button
+        android:id="@+id/visible_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get visible"
+        android:fontFamily="serif-monospace"
+        android:textAllCaps="false"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ad5a32"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        />
+
+    <Button
+        android:id="@+id/paired_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show available devices"
+        android:fontFamily="serif-monospace"
+        android:textAllCaps="false"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ad5a32"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+
+        />
+
+    <Button
+        android:id="@+id/turn_off_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="turn off"
+        android:fontFamily="serif-monospace"
+        android:textAllCaps="false"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#ad5a32"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+
+        />
+
+    <TextView
+        android:id="@+id/my_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="paired devices:"
+        android:fontFamily="serif-monospace"
+        android:textColor="#6d84a0"
+        android:textStyle="bold"
+        />
+
+    <ListView
+        android:id="@+id/my_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+    </ListView>
+
+</LinearLayout>
