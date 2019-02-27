@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="At your service!"
+        android:fontFamily="cursive"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/my_radiogroup"
+        android:padding="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <RadioGroup
+        android:id="@+id/my_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+        <RadioButton
+            android:id="@+id/my_radiobutton_startservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start service"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="4dp"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:id="@+id/my_radiobutton_stopservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop service"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="4dp"
+            android:textColor="@color/colorAccent"
+
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/my_button_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_radiogroup"
+        android:layout_centerHorizontal="true"
+        android:text="START"
+        />
+
+
+
+</RelativeLayout>
