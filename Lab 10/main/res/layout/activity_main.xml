@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    >
+
+    <ProgressBar
+        android:id="@+id/my_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:padding="4dip"
+        android:layout_above="@id/my_textview"
+        >
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/my_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorPrimary"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/my_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="download"
+        android:layout_below="@id/my_textview"
+        android:layout_toRightOf="@id/my_textview"
+        android:onClick="startProgress"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorPrimary"
+        >
+    </Button>
+
+
+
+</RelativeLayout>
